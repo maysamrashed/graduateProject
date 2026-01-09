@@ -1,6 +1,6 @@
 import styles from "../../csss/pagesCss/user/UploadImage.module.css";
 import alertIcon from "../../assets/iacons/alert.svg";
-import uploadIcon from "../../assets/iacons/Upload.svg";
+import uploadIcon from "../../assets/iacons/upload.svg";
 import { useNavigate } from "react-router-dom";
 import { useRef, useState } from "react";
 import api from "../../api/axios.js";
