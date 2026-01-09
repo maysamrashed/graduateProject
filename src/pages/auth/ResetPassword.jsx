@@ -5,7 +5,7 @@ import axios from "axios";
 import styles from "../../csss/auth/Auth.module.css";
 import reset from "../../csss/auth/Reset.module.css";
 import close from "../../assets/iacons/close.svg";
-import resetpassword from "../../assets/iacons/resetPassword.png";
+import resetpassword from "../../assets/iacons/resetpassword.png";
 import Loder from "../../components/Loder";
 
 export default function ResetPassword() {
