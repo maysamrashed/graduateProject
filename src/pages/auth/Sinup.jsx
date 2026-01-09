@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import close from "../../assets/iacons/close.svg";
-import styles from "../../csss/auth/auth.module.css";
+import styles from "../../csss/auth/Auth.module.css";
 import { useFormik } from "formik";
 import axios from "axios";
 import * as Yup from "yup";

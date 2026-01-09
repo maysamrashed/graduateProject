@@ -2,7 +2,7 @@ import { useFormik } from "formik";
 import { toast } from "react-toastify";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
-import styles from "../../csss/auth/auth.module.css";
+import styles from "../../csss/auth/Auth.module.css";
 import reset from "../../csss/auth/reset.module.css";
 import close from "../../assets/iacons/close.svg";
 import resetpassword from "../../assets/iacons/resetPassword.png";

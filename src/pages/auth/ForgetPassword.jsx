@@ -1,7 +1,7 @@
 import { useFormik } from "formik";
 import axios from "axios";
 import { toast } from "react-toastify";
-import styles from "../../csss/auth/auth.module.css";
+import styles from "../../csss/auth/Auth.module.css";
 import { useNavigate } from "react-router-dom";
 import close from "../../assets/iacons/close.svg";
 import Loder from "../../components/Loder";
