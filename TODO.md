@@ -1,0 +1,5 @@
+- [x] Fix img src from Logo to dermAi
+- [x] Import Link from 'react-router-dom'
+- [x] Add toggle button for mobile responsiveness
+- [x] Change Home link to use Link component with to="/"
+- [x] Remove the disabled link

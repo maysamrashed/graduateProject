@@ -1,0 +1,142 @@
+/* الصفحة كاملة */
+.authPage {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 20, 0.55);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 1px;
+  right: 11px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* الكرت الرئيسي */
+.authCard {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border-radius: 24px;
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(73, 72, 72, 0.35);
+}
+
+/* الجهة اليسار */
+.authLeft {
+  flex: 1;
+  background: linear-gradient(0deg, #683CC0, #341E60 100%);
+  color: #fff;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.authLeft h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.authLeft p {
+  font-size: 15px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.btnLeft {
+  padding: 6px 22px;
+  border-radius: 999px;
+  border: 2px solid #683CC0;
+  color: #683CC0;
+  background-color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  /* مهم */
+  margin: 20px auto 0;
+  /* هذا اللي بوسّط */
+  padding: auto;
+  text-align: center;
+}
+
+
+/* الجهة اليمين */
+.authRight {
+  flex: 1;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authRight h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.btnRight {
+
+  background: linear-gradient(0deg, #683CC0, #341E60 100%);
+  color: white;
+  text-decoration: none;
+  padding: 6px 22px;
+  font-weight: 500;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #683CC0;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/*forget password*/
+.color {
+  color: #683CC0;
+}
+
+.authCardforgetPassword {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(0deg, #683CC0, #341E60 100%);
+  color: #fff;
+  border-radius: 24px;
+  width: 700px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(73, 72, 72, 0.35);
+}

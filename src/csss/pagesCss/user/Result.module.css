@@ -1,0 +1,151 @@
+.page {
+    min-height: 100vh;
+    background: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    width: 600px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.imageWrapper {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageLabel {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.labelBar {
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.benign {
+    background: #22c55e;
+}
+
+.malignant {
+    background: #ef4444;
+}
+
+.confidence {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 10px 0 20px;
+}
+
+.resultBox {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.greenBox {
+    background: #e9f9ef;
+    color: #1b7f4d;
+}
+
+.redBox {
+    background: #fdecec;
+    color: #a11212;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.purple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px;
+  gap: 6px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(0deg, #683CC0, #341E60 100%);
+}
+
+.orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px ;
+  gap: 5px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(0deg, #e2894a, #ec5403 100%);
+}
+
+.blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 6px;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(0deg, #3b6cd3, #1e40af 100%);
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #555;
+    background: #111;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
