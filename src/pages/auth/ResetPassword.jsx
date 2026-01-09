@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import styles from "../../csss/auth/Auth.module.css";
-import reset from "../../csss/auth/reset.module.css";
+import reset from "../../csss/auth/Reset.module.css";
 import close from "../../assets/iacons/close.svg";
 import resetpassword from "../../assets/iacons/resetPassword.png";
 import Loder from "../../components/Loder";
