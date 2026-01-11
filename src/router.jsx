@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
       { path: "/forget-password", element: <ForgetPassword /> },
       { path: "/reset-password/:token", element: <ResetPassword /> },
       {
-        path: "/verifyCode",
+        path: "/verify",
         element: <VerifyCode />,
       },
     
