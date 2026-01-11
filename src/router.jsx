@@ -13,7 +13,8 @@ import Signin from "./pages/auth/Signin";
 import Signup from "./pages/auth/Sinup";
 import ForgetPassword from "./pages/auth/ForgetPassword";
 import ResetPassword from "./pages/auth/ResetPassword";
-import VerifyCode from "./pages/auth/VerifyCode";
+import VerifySuccess from "./pages/auth/VerifySuccess";
+import VerifyFailed from "./pages/auth/VerifyFailed.jsx";
 
 // Legal
 import Privacy from "./pages/legal/Privacy";
@@ -38,8 +39,14 @@ export const router = createBrowserRouter([
       { path: "/signup", element: <Signup /> },
       { path: "/forget-password", element: <ForgetPassword /> },
       { path: "/reset-password/:token", element: <ResetPassword /> },
-      { path: "/verify/:userId/:token", element: <VerifyCode /> },
-
+      {
+        path: "/verify-success",
+        element: <VerifySuccess />,
+      },
+      {
+        path: "/verify-failed",
+        element: <VerifyFailed />,
+      },
       /* Legal */
       { path: "/medical-disclaimer", element: <MedicalDisclaimer /> },
       { path: "/privacy", element: <Privacy /> },
