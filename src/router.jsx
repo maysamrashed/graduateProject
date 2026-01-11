@@ -37,7 +37,7 @@ export const router = createBrowserRouter([
       { path: "/signin", element: <Signin /> },
       { path: "/signup", element: <Signup /> },
       { path: "/forget-password", element: <ForgetPassword /> },
-      { path: "/reset-password/:userId/:token", element: <ResetPassword /> },
+      { path: "/reset-password/:token", element: <ResetPassword /> },
       { path: "/verify/:userId/:token", element: <VerifyCode /> },
 
       /* Legal */
