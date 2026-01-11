@@ -36,7 +36,8 @@ export default function ResetPassword() {
 
     await axios.post(
       `https://dermai-backend-1yeb.onrender.com/api/auth/reset-password/${token}`,
-      { password: values.password }
+      {password: values.password,
+    confirmPassword: values.confirmPassword }
     );
 
     toast.success("Password updated successfully. Please sign in.");
