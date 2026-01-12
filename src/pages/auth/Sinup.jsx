@@ -19,13 +19,31 @@ export default function Register() {
   // ===== Validation Schema =====
   const schema = Yup.object({
     name: Yup.string(),
-    email: Yup.string()
-      .email("Invalid email")
-      .min(5, "Email too short")
-      .required("Email is required"),
-    password: Yup.string()
-      .min(8, "Password must be at least 8 characters")
-      .required("Password is required"),
+
+  email: Yup.string()
+    .email("Invalid email")
+    .min(5, "Email too short")
+    .required("Email is required"),
+
+  password: Yup.string()
+    .required("Password is required")
+    .min(8, "Password must be at least 8 characters")
+    .matches(
+      /[a-z]/,
+      "Password must contain at least one lowercase letter"
+    )
+    .matches(
+      /[A-Z]/,
+      "Password must contain at least one uppercase letter"
+    )
+    .matches(
+      /\d/,
+      "Password must contain at least one number"
+    )
+    .matches(
+      /[@#&*]/,
+      "Password must contain at least one symbol (@ # & *)"
+    ),
   });
 
   // ===== Formik =====
