@@ -108,7 +108,7 @@ export default function Home() {
         <div className="container">
           <div className="row justify-content-center text-center g-4">
             <div className={`col-md-4 ${styles.aiTesting}`}>
-              <span className="d-block fw-bold fs-2">94%+</span>
+              <span className="d-block fw-bold fs-2">84%+</span>
               <span className="fw-semibold">Model Accuracy</span>
             </div>
 
