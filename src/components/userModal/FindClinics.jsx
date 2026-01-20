@@ -24,7 +24,7 @@ L.Icon.Default.mergeOptions({
 export default function ClinicsModal({ onClose }) {
   const [position, setPosition] = useState(null); // {lat, lng}
   const [clinics, setClinics] = useState([]);
-  const [meta, setMeta] = useState({ searchRadiusKm: 40 , expanded: false });
+  const [meta, setMeta] = useState({ searchRadiusKm: 30 , expanded: false });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
 
